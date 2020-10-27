@@ -49,12 +49,12 @@ v-ripples 指令可传入一个对象作为配置项，具体配置为：
 
 | key | 描述 | 数据类型 | 默认值 |
 | :----: | :---- | :----: | :----: |
-| type | 水波扩散开始点，hit 为从点击点向四周扩散，center 为从元素中心向四周扩散 | string | hit |
+| type | 水波扩散开始方式，hit 为从点击点向四周扩散，center 为从元素中心向四周扩散 | string | hit |
 | color | 水波颜色 | string | rgba(0, 0, 0, 0.15) |
 
 例如：
 
-```
+``` html
 <!-- template -->
 <template>
   <div>
@@ -62,6 +62,7 @@ v-ripples 指令可传入一个对象作为配置项，具体配置为：
   </div>
 </template>
 
+<script>
 export default {
   data() {
     return {
@@ -72,6 +73,7 @@ export default {
     }
   }
 }
+</script>
 ```
 
 ## License
