@@ -43,6 +43,37 @@ new Vue({
 
 只需要在需要点击出发水波纹效果的html元素上加上 v-ripples 这个自定义指令即可。
 
+### 配置项Options
+
+v-ripples 指令可传入一个对象作为配置项，具体配置为：
+
+| key | 描述 | 数据类型 | 默认值 |
+| :----: | :---- | :----: | :----: |
+| type | 水波扩散开始点，hit 为从点击点向四周扩散，center 为从元素中心向四周扩散 | string | hit |
+| color | 水波颜色 | string | rgba(0, 0, 0, 0.15) |
+
+例如：
+
+```
+<!-- template -->
+<template>
+  <div>
+    <button v-ripples="options">按钮</button>
+  </div>
+</template>
+
+export default {
+  data() {
+    return {
+      options: {
+        type: 'center',  // 设置从元素中心向四周扩散
+        color: 'yellow'  // 设置水波颜色为黄色
+      }
+    }
+  }
+}
+```
+
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
