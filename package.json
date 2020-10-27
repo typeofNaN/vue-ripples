@@ -1,0 +1,27 @@
+{
+  "name": "@typeofnan/vue-ripples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typeofNaN/vue-ripples.git"
+  },
+  "keywords": [
+    "vue",
+    "ripples",
+    "vue-ripples",
+    "directive",
+    "vue-directive",
+    "v-ripples"
+  ],
+  "author": "typeofNaN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/typeofNaN/vue-ripples/issues"
+  },
+  "homepage": "https://github.com/typeofNaN/vue-ripples#readme"
+}
